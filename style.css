@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(99, 213, 99);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    height: 200px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto {
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.comprar {
+    background-color: rgb(227, 82, 193);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.comprar:hover {
+    background: rgb(99, 213, 99);
+}
+
+nav a:hover {
+    background: rgb(227, 82, 193);
+}
